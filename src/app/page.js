@@ -25,7 +25,7 @@ export default function App() {
   };
 
   const addHearts = () => {
-    const newHearts = Array.from({ length: 150 }, (_, id) => ({
+    const newHearts = Array.from({ length: 75 }, (_, id) => ({
       id,
       left: Math.random() * 100,
     }));
